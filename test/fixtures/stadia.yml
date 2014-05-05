@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  city: MyString
+  owner_club: MyString
+  capacity: 1
+  image_url: MyString
+  description: MyText
+  status: false
+
+two:
+  name: MyString
+  city: MyString
+  owner_club: MyString
+  capacity: 1
+  image_url: MyString
+  description: MyText
+  status: false

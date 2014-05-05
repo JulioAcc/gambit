@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Appearances:</strong>
+  <%= @team.appearances %>
+</p>
+
+<p>
+  <strong>Titles:</strong>
+  <%= @team.titles %>
+</p>
+
+<p>
+  <strong>Fifa ranking:</strong>
+  <%= @team.fifa_ranking %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>

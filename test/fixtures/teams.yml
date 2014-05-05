@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  appearances: 1
+  titles: 1
+  fifa_ranking: 1
+
+two:
+  appearances: 1
+  titles: 1
+  fifa_ranking: 1
