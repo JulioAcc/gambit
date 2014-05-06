@@ -1,11 +1,21 @@
 Rails.application.routes.draw do
+
+  get 'users/new'
+
   resources :players
-
   resources :countries
-
   resources :teams
-
   resources :stadia
+  
+  post '/signup',  to: 'users#new'
+  post '/signin',  to: 'sessions#new'
+  get '/signout', to: 'sessions#destroy', via: :delete
+  
+  root to: 'static_pages#home'
+  
+  get '/help',    to: 'static_pages#help'
+  get '/about',   to: 'static_pages#about'
+  get '/contact', to: 'static_pages#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
